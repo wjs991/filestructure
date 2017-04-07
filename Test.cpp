@@ -28,7 +28,7 @@ void testBuffer(IOB & Buff, char *myfile)
 	AlanMason.Pack(Buff);
 	recaddr2 = Buff.Write(TestOut);
 	cout << "Write at" << recaddr2 << endl;
-	recaddr1 = Buff.Delete(TestOut, recaddr1);
+	//recaddr1 = Buff.Delete(TestOut, recaddr1);
 	TestOut.close();
 	
 
